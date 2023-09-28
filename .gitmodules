@@ -1,0 +1,4 @@
+[submodule "contmatic-model"]
+	path = contmatic-model
+	url = https://github.com/CorreiaGui/contmatic-model
+	branch = main
