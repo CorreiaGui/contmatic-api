@@ -21,6 +21,8 @@
 		<jakarta.el.version>4.0.0</jakarta.el.version>
 		<fixture-factory.version>3.1.0</fixture-factory.version>
 		<joda-time.version>2.12.5</joda-time.version>
+		<lombok.version>1.18.24</lombok.version>
+		<equalsverifier.version>3.7.1</equalsverifier.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -80,13 +82,13 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.24</version>
+			<version>${lombok.version}</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>nl.jqno.equalsverifier</groupId>
 			<artifactId>equalsverifier</artifactId>
-			<version>3.7.1</version>
+			<version>${equalsverifier.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
